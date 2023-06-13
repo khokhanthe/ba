@@ -1,0 +1,1 @@
+(()=>{"use strict";["recaptcha.js","hcaptcha.js","funcaptcha.js"].forEach((c=>{const e=document.createElement("script");e.src=chrome.runtime.getURL(`inject/${c}`),(document.head||document.documentElement).appendChild(e)}))})();
